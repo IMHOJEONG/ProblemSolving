@@ -1,0 +1,49 @@
+<div id="circle1"></div>
+<div id="circle2"></div>
+<div id="circle3"></div>
+<style>
+  body{
+    position: relative;
+    display: grid;
+    top: 0px;
+    left: 0px;
+    margin:0;
+    grid-template-columns: repeat(3,1fr);
+    background: #0B2429;
+    padding: 0px 0px;
+    z-index: -1;
+  }
+  #circle1{
+    position: relative;
+    top: 75px;
+    left: 75px;
+    width: 150px;
+    height: 150px;
+    background: #1A4341;
+    border-top-left-radius:67%;
+    border-bottom-right-radius:67%;
+    z-index: 1;
+  }
+  #circle2{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    top: 75px;
+    left: -25px;
+    background: #998235;
+     border-top-left-radius:67%;
+    border-bottom-right-radius:67%;
+    z-index: 2;
+  }
+  #circle3{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    top: 75px;
+    left: -125px;
+    background: #F3AC3C;
+     border-top-left-radius:67%;
+    border-bottom-right-radius:67%;
+    z-index: 3;
+  }
+</style>
