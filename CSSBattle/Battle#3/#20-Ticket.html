@@ -1,0 +1,64 @@
+<div id="test1"></div>
+<div id="test2"></div>
+<div class="test3"></div>
+<div class="test3"></div>
+<div class="test3"></div>
+<div class="test3"></div>
+<div class="test3"></div>
+<div class="test3"></div>
+<style>
+  body{
+    margin: 0;
+    background : #62306D;
+    display: inline-flex;
+    padding: 100;
+  }
+  #test1 {
+    width : 140px;
+    height: 100px;
+    background: #F7EC7D;
+
+  }
+  #test2 {
+    width : 60px;
+    height: 100px;
+    background: #E38F66;
+    
+  }
+  .test3{
+    position: fixed;;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    background: #62306D;
+  }
+  .test3:nth-child(3){
+    transform:scale(1.3);
+    margin: -15px;
+  }
+  .test3:nth-child(4){
+    transform:scale(1.3);
+    margin-top: 85px;
+    margin-left: -15px;
+  }
+  .test3:nth-child(5){
+    transform:scale(0.7);
+    margin-top: -15px;
+    margin-left: 125px;
+  }
+  .test3:nth-child(6){
+    transform:scale(0.7);
+    margin-top: 85px;
+    margin-left: 125px;
+  }
+  .test3:nth-child(7){
+     margin-top: -15px;
+    margin-left: 185px;
+    transform:scale(1.3);
+  }
+  .test3:nth-child(8){
+     margin-top: 85px;
+    margin-left: 185px;
+    transform:scale(1.3);
+  }
+</style>

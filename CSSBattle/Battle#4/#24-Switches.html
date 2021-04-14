@@ -1,0 +1,46 @@
+<div id="box1"></div>
+<div id="box2"></div>
+<div id="test1"></div>
+<div id="test2"></div>
+<style>
+  body {
+    margin: 0;
+    padding: 100px 80px;
+    background: #62306D;
+    display: flex;
+  }
+  
+  #box1{
+    position: fixed;
+    width: 100px;
+    height: 50px;
+    background: #AA445F;
+    z-index: -1;
+  }
+  
+  #box2{
+    position: fixed;
+    left: 220px;
+    top: 150px;
+    width: 100px;
+    height: 50px;
+    background: #E38F66;
+    z-index: -1;
+  }
+  
+  #test1, #test2{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #F7EC7D;
+  }
+  #test1{
+    margin-right: 40px;
+    box-shadow: 
+      0px -50px 0 0 #AA445F;
+  }
+  #test2{
+    box-shadow:
+      0px 50px 0 0 #E38F66;
+  }
+</style>
