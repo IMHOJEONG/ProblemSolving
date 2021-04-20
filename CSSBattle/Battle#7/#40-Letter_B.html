@@ -1,0 +1,29 @@
+<div></div>
+<div></div>
+<style>
+  body {
+	margin: 0;
+    padding: 50px 100px;
+    background: #6592CF;
+  }
+  div {
+    position: fixed;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(
+    	circle at 50%, 
+      #6592CF, #6592CF 35%, 
+      #243D83 36%
+    );
+    border-radius: 50%;
+  }
+  div:nth-child(2){
+    width: 100px;
+    height: 100px;
+    border-radius: 0;
+    background: linear-gradient(
+    	to right, #243D83,
+       #243D83 50%, #6592CF 50%
+    );
+  }
+</style>
