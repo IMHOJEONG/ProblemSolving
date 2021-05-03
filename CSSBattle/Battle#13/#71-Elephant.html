@@ -1,0 +1,69 @@
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div><div></div>
+<style>
+  body {
+    margin: 0;
+    padding: 60px 110px;
+    background: #998235;
+  }
+  div{
+    position: fixed;
+    width: 180px; 
+    height: 180px;
+    background: #1A4341;
+    border-radius: 50%;
+  }
+  div:nth-child(2), div:nth-child(3){
+    z-index:-1;
+    left: 50px; 
+    width: 80px; 
+    height: 180px;
+    background: #0B2429;
+    box-shadow: 
+      inset 16px 0 0 0 #1A4341; 
+  }
+  div:nth-child(3){
+    left: 270px; 
+    box-shadow: 
+      inset -16px 0 0 0 #1A4341; 
+  }
+  div:nth-child(4), div:nth-child(5){
+    top: 150px;
+    left: 150px; 
+    width: 40px;
+    height: 20px;
+    background: radial-gradient(
+    	circle at 50% 0%, 
+        #0B2429 35%,
+        #998235 36%
+    );
+    border-radius: 0 0 1in 1in;
+  }
+  div:nth-child(5){
+    left: 210px;
+  }
+  div:nth-child(6){
+    top: 190px;
+    left: 140px; 
+    width: 120px; 
+    height: 60px;
+    background: radial-gradient(
+    	circle at 50% 100%,
+        transparent 47%,
+      	#FFFFFF 48%
+    );
+    border-radius: 1in 1in 0 0;
+  }
+  div:nth-child(7){
+    top: 180px;
+    left: 180px;
+    width: 40px; 
+    height: 150px;
+    background: #0B2429;
+    border-radius: 1in;
+  }
+</style>
