@@ -1,0 +1,73 @@
+<span>
+    <div>
+        <div></div>
+        <div></div>
+    </div>
+    <div>
+        <div></div>
+        <div></div>
+    </div>
+    <div>
+        <div></div>
+        <div></div>
+    </div>
+    <div>
+        <div></div>
+        <div></div>
+        <div></div>
+    </div>
+</span>
+<style>
+    body {
+        background: #191919;
+        margin: 0;
+    }
+
+    span {
+        display: flex;
+        margin: 0 0 0 35px;
+    }
+
+    span>div {
+        margin: 170px 0 0 20px;
+        width: 50px;
+        height: 40px;
+        background: #FE5F55;
+        border-radius: 100%;
+    }
+
+    span>div>div:first-child {
+        width: 10px;
+        height: 100px;
+        background: #FE5F55;
+        margin: -80px 0 0 40px;
+    }
+
+    span>div:nth-child(1)>div:nth-child(2) {
+        width: 70px;
+        height: 10px;
+        background: #FE5F55;
+        margin: -100px 0 0 40px;
+    }
+
+    span>div:nth-child(3)>div:nth-child(2),
+    span>div:nth-child(4)>div:nth-child(2) {
+        width: 40px;
+        height: 10px;
+        background: #FE5F55;
+        margin: -100px 0 0 40px;
+    }
+
+    span>div:nth-child(4)>div:nth-child(3) {
+        width: 40px;
+        height: 10px;
+        background: #FE5F55;
+        margin: 10px 0 0 40px;
+    }
+
+    span>div:nth-child(3),
+    span>div:nth-child(3)>div,
+    span>div:nth-child(3)>div:nth-child(2) {
+        background: #A64942;
+    }
+</style>
