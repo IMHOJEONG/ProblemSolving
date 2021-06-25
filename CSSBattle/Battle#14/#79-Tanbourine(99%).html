@@ -1,0 +1,68 @@
+<div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+    <div></div>
+</div>
+<style>
+    body {
+        background: #6592CF;
+        margin: 0;
+    }
+
+    div {
+        position: relative;
+        border: 10px solid #243D83;
+        border-radius: 50%;
+    }
+
+    body>div {
+        width: 150px;
+        height: 150px;
+        margin: 75px 0 0 115px;
+    }
+
+    div>div {
+        width: 30px;
+        height: 30px;
+        background: radial-gradient(circle at 50%, #243D83 4.5px, #6592CF 5.5px);
+
+    }
+
+    div>div:nth-child(1) {
+        top: -30px;
+        left: 50px;
+    }
+
+    div>div:nth-child(2) {
+        top: -40px;
+        left: -20px;
+    }
+
+    div>div:nth-child(3) {
+        top: -90px;
+        left: 120px;
+    }
+
+    div>div:nth-child(4) {
+        top: -70px;
+        left: 120px;
+    }
+
+    div>div:nth-child(5) {
+        top: -120px;
+        left: -20px;
+    }
+
+    div>div:nth-child(6) {
+        width: 100px;
+        height: 100px;
+        top: -135px;
+        left: 15px;
+        clip-path: polygon(0 0, 100% 0%, 100% 2%, 48% 99%, 8% 15%);
+        border-radius: 100%;
+        background: #6592CF;
+    }
+</style>
